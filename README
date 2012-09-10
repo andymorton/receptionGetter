@@ -1,0 +1,32 @@
+README
+
+What is this script?
+----------------------------------------
+
+This script was developed to allow a website to downloaded into a folder, repeatedly on the crontab
+
+Why?  
+
+We use a noticeboard system, that is hosted, but continually refreshing is a huge bandwidth hog, and so to limit that, it was put that we should download the website on the crontab and then run the website locally.
+
+This way, it should never be unavailable, and bandwidth can be monitored.
+
+Building
+----------------------------------------
+This doesn't need built - just ensure that you have wget on your system
+
+
+Running
+----------------------------------------
+
+Alter the URL and log file (if required) in the script, and run using
+
+$ get_reception.sh
+
+
+
+Other Info
+----------------------------------------
+
+Don't put your website into a general directory.
+Make a specific one and ensure that permissions are set properly!
